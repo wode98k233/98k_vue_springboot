@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/liu?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: laznb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+server:
+  port: 8888
+prop:
+  upload-folder: D:/辩论/大三/下/项目/个人网站开发/前端/springboot_test/mes/picture/
+  upload-foldertext: D:/辩论/大三/下/项目/个人网站开发/前端/springboot_test/mes/text/
+  #upload-folder:  /home/vue_springboot/mes/picture/
+  #upload-foldertext: /home/vue_springboot/mes/text/
+

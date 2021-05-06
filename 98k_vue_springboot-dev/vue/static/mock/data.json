@@ -1,0 +1,24 @@
+{
+  "name": "第一个Vue",
+  "version": "1.0.0",
+  "url": "https://blog.kuangstudy.com",
+  "page": 1,
+  "isNonProfit": true,
+  "dependencies": {
+  },
+  "address": {
+    "street":"番禺"
+  ,"city":"广东广州"
+  ,"country":"中国"},
+  "links": [
+    {
+      "name": "bilibili",
+      "url": "https://space.bilibili.com/"
+    },
+    {
+      "name": "百度",
+      "url": "https://www.baidu.com/"
+    }
+  ]
+
+}
